@@ -16,7 +16,7 @@ description = """
 API de un Sistema de tareas y productos, usando FastApi con Python.
 
 Funciones;
-- Crear, Leer, Actualizar y eliminar Tareas
+- Crear, Leer, Actualizar y eliminar Tareas, Productos y Cliente
 """
 
 version_prefix = f"/api/{version}"
@@ -29,9 +29,9 @@ app = FastAPI(
     version=version,
     license_info={"name": "MIT License", "url": "https://opensource.org/license/mit"},
     contact={
-        "name": "Henry Alejandro Taby Zenteno",
-        "url": "https://github.com/henrytaby",
-        "email": "henry.taby@gmail.com",
+        "name": "Elmer Soliz Patzi",
+        "url": "https://github.com/ElmerSP",
+        "email": "elmer.soliz@uab.edu.bo",
     },
     openapi_tags=[
         {
